@@ -7,7 +7,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css"
 import { Metadata, Viewport } from "next";
 
 export const metadata: Metadata = {
-  title: "PWA App",
+  title: "SUMA",
   description: "Best PWA App",
   manifest: "/manifest.json",
   appleWebApp: {
