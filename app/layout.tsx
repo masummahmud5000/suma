@@ -31,11 +31,10 @@ export default function RootLayout({
       <body>
         <nav className="fixed top-0 left-0 w-full z-50">
           <div className="border-b-7 border-amber-500 bg-green-500 py-1 px-2 lg:px-15 lg:py-2"><Image src={logo} alt="School Logo" width={300}/></div>
-          <div className="flex items-center justify-center py-1 gap-7 lg:gap-50 bg-red-700 text-[13px] text-white">
-            <Link className="hover:font-bold" href="#">হোম</Link>
-            <Link className="hover:font-bold" href="#">স্কুল-সম্পর্কে</Link>
-            <Link className="hover:font-bold" href="#">যেসব-সুবিধা-আছে</Link>
-            <Link className="hover:font-bold" href="#">যোগাযোগ</Link>
+          <div className="flex items-center pl-10 py-1 gap-7 lg:gap-50 bg-red-700 text-[13px] text-white">
+            <Link className="hover:font-bold" href="/">Home</Link>
+            <Link className="hover:font-bold" href="/schoolDetails">School-Details</Link>
+            <Link className="hover:font-bold" href="/contact">Contact</Link>
           </div>
           <div className="flex items-center bg-blue-500">
             <h1 className="fa fa-microphone text-white py-2 pl-2 pr-5 rounded-r-2xl bg-fuchsia-500"></h1>

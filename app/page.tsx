@@ -2,7 +2,7 @@ import '@/app/globals.css'
 import homeImage from "@/public/home-image.jpg"
 import Image from "next/image";
 import Link from "next/link";
-import Slide from './_Client-components/slider';
+import Slide from './_clientComponents/slider';
 
 export default function Home() {
 
