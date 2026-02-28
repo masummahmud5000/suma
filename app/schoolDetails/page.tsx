@@ -1,3 +1,10 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: 'School Details',
+    description: 'স্কুল সম্পর্কে যা যা তথ্য দেওয়া আছে সব এখানে!'
+};
+
 const SchoolDetails = () => {
     return(
         <main className="flex flex-col items-center h-screen bg-amber-100 py-45">

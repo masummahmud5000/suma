@@ -1,4 +1,10 @@
 import Copy from "../_clientComponents/copy";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: 'Contact',
+    description: 'আপনার সন্তান কে ভর্তি বা যেকোনো প্রয়োজনে এখান থেকে যোগাযোগ করুন'
+};
 
 const SchoolDetails = () => {
     const teacher = [
