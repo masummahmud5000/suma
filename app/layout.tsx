@@ -38,7 +38,7 @@ export default function RootLayout({
           </div>
           <div className="flex items-center bg-blue-500">
             <h1 className="fa fa-microphone text-white py-2 pl-2 pr-5 rounded-r-2xl bg-fuchsia-500"></h1>
-            <Marquee className="text-white font-bold" speed={50} direction="left">সন্তান আপনার দায়িত্ব আমাদের | আপনার সন্তান কে আমাদের হাতে তুলে দিন, পিটিয়ে লাল করে দিব! | সুলতান উদ্দীন মেমোরিয়াল একাডেমি .............Repeat............. </Marquee>
+            <Marquee className="text-white font-bold" speed={50} direction="left">সন্তান আপনার দায়িত্ব আমাদের | আপনার সন্তান কে আমাদের হাতে তুলে দিন, মানুষ বানানোর দায়িত্ব আমাদের .............Repeat............. </Marquee>
           </div>
         </nav>
         {children}
